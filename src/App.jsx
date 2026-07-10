@@ -1,10 +1,13 @@
+import Hero from './sections/Hero/Hero.jsx'
+import Nutrition from './sections/Nutrition/Nutrition.jsx'
+import GutHealth from './sections/GutHealth/GutHealth.jsx'
+
 export default function App() {
   return (
-    <div className="app">
-      <header className="hero">
-        <h1>Welcome to GemCommerce</h1>
-        <p>my app is running successfully.</p>
-      </header>
-    </div>
-  );
+    <main className="app-shell">
+      <Hero />
+      <Nutrition />
+      <GutHealth />
+    </main>
+  )
 }
