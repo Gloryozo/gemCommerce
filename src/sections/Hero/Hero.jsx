@@ -3,22 +3,22 @@ import './Hero.css'
 const heroFeatures = [
 	{
 		title: 'Real Food',
-		description: 'Whole food recipes crafted with recognizable ingredients.',
+		description: 'Wholesome recipes for dogs with real meat and veggies.',
 		tone: 'mint',
 	},
 	{
 		title: 'Premium Ingredients',
-		description: 'Carefully chosen ingredients for everyday nutrition.',
+		description: 'Elevating pet care with unmatched safety and quality.',
 		tone: 'sand',
 	},
 	{
 		title: 'Made Freshly',
-		description: 'Prepared to support freshness and taste in every bowl.',
+		description: 'We prioritize maintaining the integrity of whole foods and nutrition.',
 		tone: 'leaf',
 	},
 	{
 		title: 'Vet Developed',
-		description: 'Formulated with expert guidance for balanced meals.',
+		description: 'We raise the bar for dog nutrition, surpassing industry expectations.',
 		tone: 'sky',
 	},
 ]
@@ -59,11 +59,11 @@ export default function Hero() {
 						</div>
 
 						<button type="button" className="hero-cta">
-							See how we use a food first recipe
+							Get your dog's healthy meal today!
 						</button>
 
 						<p className="hero-trust">
-							4.9 stars · Trusted by pet parents · Vet approved
+							30-day money back guarantee
 						</p>
 					</div>
 
