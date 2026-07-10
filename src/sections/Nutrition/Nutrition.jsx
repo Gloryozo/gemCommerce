@@ -23,7 +23,6 @@ export default function Nutrition() {
 		<section className="nutrition-section" aria-label="Nutrition section">
 			<div className="nutrition-content">
 				<div className="nutrition-copy">
-					<p className="nutrition-kicker">Nutrition</p>
 					<h2 className="nutrition-title">
 						Nutrition is the foundation for longer, healthier lives in dogs.
 					</h2>
