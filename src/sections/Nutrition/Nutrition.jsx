@@ -22,8 +22,44 @@ export default function Nutrition() {
 	return (
 		<section className="nutrition-section" aria-label="Nutrition section">
 			<div className="nutrition-content">
-				
-				
+				<div className="nutrition-copy">
+					<p className="nutrition-kicker">Nutrition</p>
+					<h2 className="nutrition-title">
+						Nutrition is the foundation for longer, healthier lives in dogs.
+					</h2>
+					<p className="nutrition-body">
+						We start with whole food ingredients and balanced recipes designed to support
+						everyday health, from digestion to mealtime satisfaction.
+					</p>
+
+					<div className="nutrition-metrics">
+						{nutritionMetrics.map((metric) => (
+							<div className="nutrition-metric" key={metric.value}>
+								<div className="nutrition-metric-value">{metric.value}</div>
+								<div className="nutrition-metric-copy">
+									<p>{metric.description}</p>
+									<div className="nutrition-bar">
+										<span style={{ width: metric.barWidth }} />
+									</div>
+								</div>
+							</div>
+						))}
+					</div>
+
+					<button type="button" className="nutrition-cta">
+						See how food first can help your dog
+					</button>
+				</div>
+
+				<div className="nutrition-visual">
+					<div className="nutrition-image-frame">
+						<img
+							src="/images/dog.png"
+							alt="Dog sitting beside a pet food package"
+							className="nutrition-image"
+						/>
+					</div>
+				</div>
 			</div>
 		</section>
 	)
