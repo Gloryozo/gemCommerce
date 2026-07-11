@@ -7,9 +7,10 @@ export default function App() {
     <main className="app-shell">
       <section className="feature-card-shell">
         <Hero />
-        <Nutrition />
+        <Nutrition /> 
+        <GutHealth />
       </section>
-      <GutHealth />
+    
     </main>
   )
 }
