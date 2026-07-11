@@ -1,7 +1,7 @@
 .guthealth-section {
 	width: min(100%, 1920px);
 	margin-top: 0;
-	padding: 80px 24px 88px;
+	padding: 96px 24px 96px;
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 248, 244, 0.98));
 	border-radius: 0 0 4px 4px;
 	box-shadow: none;
@@ -9,7 +9,7 @@
 
 .guthealth-content {
 	display: grid;
-	gap: 72px;
+	gap: 80px;
 	max-width: 1400px;
 	margin: 0 auto;
 }
