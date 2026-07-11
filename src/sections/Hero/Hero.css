@@ -36,7 +36,7 @@
 	border-radius: 999px;
 	background: rgba(255, 255, 255, 0.15);
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
 }
 
@@ -102,7 +102,7 @@
 
 .feature-card p {
 	margin: 0;
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 1.5;
 	color: #595b6a;
 }
@@ -165,7 +165,7 @@
 	max-width: 380px;
 	background: linear-gradient(180deg, #f07f4f, #ef6c40);
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	cursor: pointer;
 	box-shadow: 0 10px 18px rgba(239, 108, 64, 0.22);
@@ -194,13 +194,13 @@
 }
 
 .hero-shield-icon {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1;
 }
 
 .hero-trust {
 	margin: 0;
-	font-size: 12px;
+	font-size: 14px;
 	color: #6d7281;
 	white-space: nowrap;
 	text-align: center;

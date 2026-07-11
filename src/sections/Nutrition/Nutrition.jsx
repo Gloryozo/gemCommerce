@@ -37,9 +37,6 @@ export default function Nutrition() {
 								<div className="nutrition-metric-value">{metric.value}</div>
 								<div className="nutrition-metric-copy">
 									<p>{metric.description}</p>
-									<div className="nutrition-bar">
-										<span style={{ width: metric.barWidth }} />
-									</div>
 								</div>
 							</div>
 						))}
