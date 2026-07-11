@@ -23,17 +23,26 @@ const heroFeatures = [
 	},
 ]
 
+const heroPayments = [
+	{ src: '/images/visa.png', alt: 'Visa' },
+	{ src: '/images/mastercard.png', alt: 'Mastercard' },
+	{ src: '/images/paypal.png', alt: 'PayPal' },
+	{ src: '/images/applepay.png', alt: 'Apple Pay' },
+	{ src: '/images/gpay.png', alt: 'Google Pay' },
+]
+
 export default function Hero() {
 	return (
 		<section className="hero-section" aria-labelledby="hero-title">
-		<div className="hero-topbar">
+			<div className="hero-topbar" aria-label="Brand mark">
 				
 			</div>
 
 			<div className="hero-frame">
 				<h1 id="hero-title" className="hero-title">
-					 What makes us different
-                     makes them stronger
+					What makes us different
+					<br />
+					makes them stronger
 				</h1>
 
 				<div className="hero-grid">
@@ -52,8 +61,8 @@ export default function Hero() {
 					<div className="hero-visual">
 						<div className="hero-image-shell">
 							<img
-								src="/images/circleMeal.png"
-								alt="Bowl of dog food ingredients"
+								src="/images/mixed_food.png"
+								alt="Bowl of mixed dog food ingredients"
 								className="hero-image"
 							/>
 						</div>
@@ -62,9 +71,19 @@ export default function Hero() {
 							Get your dog's healthy meal today!
 						</button>
 
-						<p className="hero-trust">
-							30-day money back guarantee
-						</p>
+						<div className="hero-payment-row">
+							<p className="hero-trust">30-day money back guarantee</p>
+							<div className="hero-payment-icons" aria-label="Accepted payment methods">
+								{heroPayments.map((payment) => (
+									<img
+										key={payment.alt}
+										src={payment.src}
+										alt={payment.alt}
+										className="hero-payment-icon"
+									/>
+								))}
+							</div>
+						</div>
 					</div>
 
 					<div className="hero-callouts hero-callouts-right">
@@ -79,7 +98,7 @@ export default function Hero() {
 						))}
 					</div>
 				</div>
-			</div>	
+			</div>
 		</section>
 	)
 }
