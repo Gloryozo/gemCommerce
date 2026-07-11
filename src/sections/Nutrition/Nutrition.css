@@ -1,9 +1,9 @@
 .nutrition-section {
 	width: min(100%, 1920px);
 	margin-top: 0;
-	padding: 80px 24px 88px;
+	padding: 0 24px 88px;
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 248, 244, 0.98));
-	border-radius: 0;
+	border-radius: 0 0 4px 4px;
 	box-shadow: none;
 }
 
@@ -16,6 +16,7 @@
 
 .nutrition-copy {
 	max-width: 640px;
+	margin-left: clamp(300px, 4vw, 72px);
 }
 
 .nutrition-kicker {
@@ -73,7 +74,7 @@
 .nutrition-bar {
 	height: 4px;
 	border-radius: 999px;
-	background: rgba(239, 108, 64, 0.15);
+	background: rgba(64, 239, 224, 0.15);
 	overflow: hidden;
 }
 
@@ -118,11 +119,12 @@
 	display: block;
 	object-fit: cover;
 	object-position: center;
+	
 }
 
 @media (max-width: 960px) {
 	.nutrition-section {
-		padding: 64px 18px 72px;
+		padding: 0 18px 72px;
 	}
 
 	.nutrition-content {
@@ -132,12 +134,13 @@
 
 	.nutrition-copy {
 		max-width: 100%;
+		margin-left: 0;
 	}
 }
 
 @media (max-width: 640px) {
 	.nutrition-section {
-		padding: 40px 14px 48px;
+		padding: 0 14px 48px;
 	}
 
 	.nutrition-metric {
