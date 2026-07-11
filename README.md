@@ -397,29 +397,6 @@ This project demonstrates several best practices:
 
 ---
 
-## Future Enhancements
-
-Potential additions to extend this project:
-- Add product catalog with dynamic routing
-- Implement shopping cart functionality
-- Integrate with a backend API for real data
-- Add animation libraries (Framer Motion, GSAP)
-- Implement state management (Redux, Zustand)
-- Add unit tests (Jest, React Testing Library)
-- Progressive Web App (PWA) capabilities
-
----
-
-## License
-
-This project is private and not licensed for public use.
-
----
-
-## Contributing
-
-This is a technical test project. Contributions are not currently accepted.
-
 ---
 
 
