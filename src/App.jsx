@@ -5,8 +5,10 @@ import GutHealth from './sections/GutHealth/GutHealth.jsx'
 export default function App() {
   return (
     <main className="app-shell">
-      <Hero />
-      <Nutrition />
+      <section className="feature-card-shell">
+        <Hero />
+        <Nutrition />
+      </section>
       <GutHealth />
     </main>
   )
