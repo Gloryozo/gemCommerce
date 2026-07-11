@@ -368,9 +368,7 @@ This project uses **Vite** as the build tool, which offers:
 -  **Zero-config** setup with sensible defaults
 -  **Modern** ES modules support
 
-### React Plugin
 
-Uses `@vitejs/plugin-react` with Oxc for fast refresh during development.
 
 ---
 
